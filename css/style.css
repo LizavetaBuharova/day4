@@ -1,8 +1,7 @@
 .flex-container1 {
     display: flex;
     justify-content: center;
-    padding: 20px;
-    gap: 20px;
+    padding: 10px;
     background-color:rgb(231, 177, 111);
     margin-bottom: 20px;
 }
@@ -10,15 +9,14 @@
 .flex-item1 {
     background-color:bisque;
     padding: 20px;
+    margin: 10px;
 }
 
 .flex-container2 {
-    height: 280px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    padding: 20px;
-    gap: 20px;
+    padding: 10px;
     background-color:rgb(111, 163, 231);
     margin-bottom: 20px;
 }
@@ -26,14 +24,13 @@
 .flex-item2 {
     background-color:rgb(80, 69, 207);
     padding: 20px;
+    margin: 10px;
 }
 
 .flex-container3 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
-    padding: 20px;
-    gap: 20px;
+    padding: 10px;
     background-color:rgb(238, 208, 172);
     margin-bottom: 20px;
 }
@@ -42,21 +39,21 @@
     width: 150px;
     background-color:rgb(245, 174, 88);
     padding: 20px;
+    margin: 10px;
 }
 
 .flex-container4 {
     display: flex;
-    justify-content: center;
-    padding: 20px;
-    gap: 20px;
+    padding: 10px;
     background-color:rgb(231, 111, 219);
     margin-bottom: 20px;
 }
 
 .flex-item4 {
-    width: 180px;
+    flex-grow: 1;
     background-color:rgb(225, 77, 124);
     padding: 20px;
+    margin: 10px;
 
 }
 
